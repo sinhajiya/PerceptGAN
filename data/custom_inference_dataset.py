@@ -6,16 +6,13 @@ from data.base_dataset import BaseDataset, get_transform
 from data.image_folder import make_dataset
 
 class CustomInferenceDataset(BaseDataset):
-    """
-    Deterministic patch extraction from full images.
-    """
-
+  
     def __init__(self, opt):
         BaseDataset.__init__(self, opt)
 
         self.paths = sorted(make_dataset(opt.dataroot, opt.max_dataset_size))
         self.patch_size = opt.crop_size        # 128
-        self.stride = opt.stride               # 64 or 128
+        self.stride = 64
         self.image_size = opt.load_size        # 256
 
         self.transform = get_transform(
