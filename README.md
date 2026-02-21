@@ -96,8 +96,21 @@ PerceptGAN significantly improves structural fidelity and perceptual quality whi
 
 ---
 
-## 🚀 Summary
+##  Summary
 
 PerceptGAN combines nonlinear function approximation, multi-scale adversarial learning, and progressive perceptual supervision to produce **color-accurate, structurally consistent, and visually realistic RGB reconstructions from NIR images**.
 
 Designed for practical cross-spectral translation where realism and perceptual quality matter most.
+
+---
+
+## Acknowledgment
+
+This implementation builds upon and adapts components from the following:
+
+* **pytorch-CycleGAN-and-pix2pix**
+  [https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix)
+
+* **U-KAN**
+  [https://github.com/CUHK-AIM-Group/U-KAN](https://github.com/CUHK-AIM-Group/U-KAN)
+
