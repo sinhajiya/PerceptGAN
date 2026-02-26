@@ -63,6 +63,9 @@ The generator is optimized with a staged loss:
 
 This shifts optimization from low-level alignment to high-level perceptual realism.
 
+### Architecture diagram
+<img width="2652" height="1416" alt="h1" src="https://github.com/user-attachments/assets/2ebee3a1-7299-421b-8d17-70638b572257" />
+
 ---
 
 ##  Results (Patch-Based Evaluation)
